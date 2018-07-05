@@ -1,0 +1,37 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/master.css">
+
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<div class="prof-box">
+		<h1> Martin's </h1>
+		<h2>Lawn Service and Repair </h2>
+		<div class="line-break"></div>
+		<h5> We specialize in all lawn equipment </h5>
+		<p> 
+			For over 30 years we have been fixing on various types of lawn equipment such as: 
+		 </p>
+		 <h6> <i class="fa fa-wrench"> Lawn mowers </i></h6>
+		 <h6> <i class="fa fa-wrench"> Weed Eaters </i></h6>
+		 <h6> <i class="fa fa-wrench"> Backpack Blowers</i></h6>
+		 <h6> <i class="fa fa-wrench"> Chainsaws </i></h6>
+
+	</div>
+
+
+	<div class="navbar">
+ 		 <a href="#home" class="active"><i class="fa fa-home">Home</i></a>
+ 		 <a href="#shop">Shop</a>
+ 		 <a href="#Repair">Repair Inquiry</a>
+ 		 <a href="#contact">Contact</a>
+	</div>	
+
+
+
+</body>
+
+</html>
