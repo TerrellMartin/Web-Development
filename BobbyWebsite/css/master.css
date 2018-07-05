@@ -1,0 +1,297 @@
+/* The original height of the prof-box class was 450.  */
+
+html {
+	background: url(../images/image2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: cursive;
+  font-weight: 200;
+  color: lawngreen;
+  text-align: center;
+  letter-spacing: 4;
+}
+
+h2 {
+  font-size: 20;
+  font-weight: 100;
+  font-family: cursive;
+  color: honeydew;
+  letter-spacing: 2;
+}
+
+h3 {
+  font-size: 25;
+  font-family: fantasy;
+  font-weight: 50;
+  color: red;
+
+}
+
+h4 {
+  font-family: serif;
+  font-style: oblique;
+  font-size: 26;
+  font-weight: 30;
+  color: darkkhaki;
+}
+
+h5 {
+  font-size: 25;
+  font-family: cursive;
+  font-weight: 200;
+  color: honeydew;
+  letter-spacing: 3;
+}
+
+h6 {
+  font-size: 19;
+  color: honeydew;
+  letter-spacing: 2;
+}
+
+p {
+  color: white;
+  letter-spacing: 2;
+
+}
+
+ul {
+    display: block;
+    list-style-type: square;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+.line-break {
+  width: 480px;
+  margin: 0 auto;
+  border-top: 1px solid white;
+}
+
+.line-break2 {
+  width: 500px;
+  margin: 0 auto;
+  border-top: 1px solid white;
+}
+
+.prof-box {
+	width: 1000px;
+	height: 600px;
+	background-color: rgba(0,0,0,0.6);
+	padding: 30px;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+}
+.prof-box2 {
+	width:400px;
+	height: 180px;
+	background-color: rgba(0,0,0,0.8);
+	padding:40px;
+	color: white;
+  margin: 0 auto;
+	text-align: center;
+}
+.prof-box3 {
+  width:300px;
+  height: 90px;
+  background-color: rgba(0,0,0,0.8);
+  padding: 40px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  position: inherit;
+}
+
+
+.prof-box4 {
+  width: 600px;
+  min-height: 287px;
+  background-color: rgba(0,0,0,0.8);
+  text-align: justify;
+  position: relative;
+  margin-right: -10000px;
+}
+
+.prof-box5 {
+  width: 600px;
+  min-height: 287px;
+  background-color: rgba(0,0,0,0.8);
+  text-align: justify;
+  position: relative;
+  margin-left: -10000px
+}
+/* elements to be sent on the same line */
+*{
+  box-sizing:border-box;
+}
+
+
+ 
+.left {
+  background-color:rgba(0,0,0,0.7);
+  padding:15px;
+  float:left;
+  width:50%; /* The width is 50%, by default */
+  height:550px;
+  text-align: center;
+}
+
+.right {
+  background-color:rgba(0,0,0,0.5);
+  padding:15px;
+  float:left;
+  width: 50%;/* The width is 50%, by default */
+  height:550px;
+  text-align: center;
+}
+
+
+@media screen and (max-width:800px) {
+  .left, .right {
+    width: 100%; /* The width is 100% when the viewport is 
+    800px or smaller */
+  }
+}
+  /* end of same line element */
+
+.navbar {
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-left: 300px;
+}
+
+.navbar a {
+	  float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 26px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+  cursor: url(../images/cursor.cur), auto;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* calendar stuff */
+
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+
+/* end of calendar */
+
+/* lawn mower pictures. This is temporary right quick */
+.lawn-mower {
+  height: 250px;
+  width: 250px;
+}
+
+/* id goes here */
+#wrap {
+  background-color: #4CAF50;
+  text-align: center;
+  padding:20px;
+  display: block;
+  margin-top: 0;
+}
